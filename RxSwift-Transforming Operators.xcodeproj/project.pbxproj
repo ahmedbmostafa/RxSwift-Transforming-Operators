@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C3E6B40259244110082A952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6B3F259244110082A952 /* AppDelegate.swift */; };
 		2C3E6B42259244110082A952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6B41259244110082A952 /* SceneDelegate.swift */; };
-		2C3E6B44259244110082A952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6B43259244110082A952 /* ViewController.swift */; };
 		2C3E6B47259244110082A952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E6B45259244110082A952 /* Main.storyboard */; };
 		2C3E6B49259244120082A952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E6B48259244120082A952 /* Assets.xcassets */; };
 		2C3E6B4C259244120082A952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E6B4A259244120082A952 /* LaunchScreen.storyboard */; };
+		2C40A97925926D2B00E26985 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40A97825926D2B00E26985 /* ActivityController.swift */; };
+		2C40A97C25926D3300E26985 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40A97B25926D3200E26985 /* Event.swift */; };
+		E18D4BF29668B5F3B8B7774F /* Pods_RxSwift_Transforming_Operators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560C524E212BD4034589538E /* Pods_RxSwift_Transforming_Operators.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C3E6B3C259244110082A952 /* RxSwift-Transforming Operators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Transforming Operators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3E6B3F259244110082A952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C3E6B41259244110082A952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C3E6B43259244110082A952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C3E6B46259244110082A952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3E6B48259244120082A952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3E6B4B259244120082A952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3E6B4D259244120082A952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C40A97825926D2B00E26985 /* ActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		2C40A97B25926D3200E26985 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		560C524E212BD4034589538E /* Pods_RxSwift_Transforming_Operators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Transforming_Operators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF2E67DA5E54AF2AB82EEB8 /* Pods-RxSwift-Transforming Operators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Transforming Operators.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-Transforming Operators/Pods-RxSwift-Transforming Operators.release.xcconfig"; sourceTree = "<group>"; };
+		DB30DE59400082B080A2E988 /* Pods-RxSwift-Transforming Operators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Transforming Operators.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-Transforming Operators/Pods-RxSwift-Transforming Operators.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18D4BF29668B5F3B8B7774F /* Pods_RxSwift_Transforming_Operators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				2C3E6B3E259244110082A952 /* RxSwift-Transforming Operators */,
 				2C3E6B3D259244110082A952 /* Products */,
+				5BF62E4F8F4D3F2E93B26373 /* Pods */,
+				335D1586EF921F7E2CE22907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				2C3E6B3F259244110082A952 /* AppDelegate.swift */,
 				2C3E6B41259244110082A952 /* SceneDelegate.swift */,
-				2C3E6B43259244110082A952 /* ViewController.swift */,
+				2C40A97825926D2B00E26985 /* ActivityController.swift */,
+				2C40A97B25926D3200E26985 /* Event.swift */,
 				2C3E6B45259244110082A952 /* Main.storyboard */,
 				2C3E6B48259244120082A952 /* Assets.xcassets */,
 				2C3E6B4A259244120082A952 /* LaunchScreen.storyboard */,
 				2C3E6B4D259244120082A952 /* Info.plist */,
 			);
 			path = "RxSwift-Transforming Operators";
+			sourceTree = "<group>";
+		};
+		335D1586EF921F7E2CE22907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560C524E212BD4034589538E /* Pods_RxSwift_Transforming_Operators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF62E4F8F4D3F2E93B26373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB30DE59400082B080A2E988 /* Pods-RxSwift-Transforming Operators.debug.xcconfig */,
+				9FF2E67DA5E54AF2AB82EEB8 /* Pods-RxSwift-Transforming Operators.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C3E6B50259244120082A952 /* Build configuration list for PBXNativeTarget "RxSwift-Transforming Operators" */;
 			buildPhases = (
+				C26A881789447443AB80C4F6 /* [CP] Check Pods Manifest.lock */,
 				2C3E6B38259244110082A952 /* Sources */,
 				2C3E6B39259244110082A952 /* Frameworks */,
 				2C3E6B3A259244110082A952 /* Resources */,
+				94702B1AB27B08EA43F3DE46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +161,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94702B1AB27B08EA43F3DE46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-Transforming Operators/Pods-RxSwift-Transforming Operators-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-Transforming Operators/Pods-RxSwift-Transforming Operators-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-Transforming Operators/Pods-RxSwift-Transforming Operators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26A881789447443AB80C4F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-Transforming Operators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C3E6B38259244110082A952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3E6B44259244110082A952 /* ViewController.swift in Sources */,
+				2C40A97925926D2B00E26985 /* ActivityController.swift in Sources */,
 				2C3E6B40259244110082A952 /* AppDelegate.swift in Sources */,
 				2C3E6B42259244110082A952 /* SceneDelegate.swift in Sources */,
+				2C40A97C25926D3300E26985 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +355,7 @@
 		};
 		2C3E6B51259244120082A952 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB30DE59400082B080A2E988 /* Pods-RxSwift-Transforming Operators.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		2C3E6B52259244120082A952 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF2E67DA5E54AF2AB82EEB8 /* Pods-RxSwift-Transforming Operators.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
